@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+  background-image: url('https://img.freepik.com/free-photo/abstract-digital-grid-black-background_53876-97647.jpg?w=996&t=st=1694545361~exp=1694545961~hmac=ca2cbffcf2c62bb50947835073c3f99d1a5a598be3e1a26aaae88ac4544b046d');
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* align-items: center; */
+  height: 100vh;
+  font-family: 'Poppins';
+  color: white;
+  padding-top:20px;
+}
