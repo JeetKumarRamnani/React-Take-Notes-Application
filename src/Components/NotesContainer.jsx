@@ -9,7 +9,7 @@ function NotesContainer({notesData}) {
         {
             notesData.length > 0 ? notesData.map((note,index)=>{
                return <article key={index} className='Note border-2 w-[30%]  flex flex-col'>
-                <h3 className="border-b-2 text-center">{note.noteTitle}</h3>
+                <h3 className="border-b-2 text-center font-bold text-2xl">{note.noteTitle}</h3>
                 <p className="text-sm p-3 text-justify">{note.noteDescription}</p>
             </article>
             }) : <h2 className="text-3xl">No Notes Are Available Right Now</h2>
