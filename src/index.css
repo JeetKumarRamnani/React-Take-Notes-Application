@@ -7,7 +7,7 @@
 
 
 body{
-  background-image: url('https://img.freepik.com/free-photo/abstract-digital-grid-black-background_53876-97647.jpg?w=996&t=st=1694545361~exp=1694545961~hmac=ca2cbffcf2c62bb50947835073c3f99d1a5a598be3e1a26aaae88ac4544b046d');
+  background-image: url('./assets/background-picture.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   /* align-items: center; */
