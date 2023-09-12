@@ -5,10 +5,7 @@ function MainContainer() {
   const [formNoteTitle, setFormNoteTitle] = useState("");
   const [formNoteDescription, setFormNoteDescription] = useState("");
 
-  const [notesData,setNoteData] = useState([{
-    noteTitle: "Note Title",
-    noteDescription: "Note Description"
-  }]);
+  const [notesData,setNoteData] = useState([]);
  
 
 console.log(notesData)
